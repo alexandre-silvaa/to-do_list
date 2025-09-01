@@ -78,3 +78,5 @@ export const AddTaskModal = forwardRef<AddTaskModalRef, AddTaskModalProps>(
     );
   }
 );
+
+AddTaskModal.displayName = "AddTaskModal";
