@@ -36,7 +36,8 @@ export default function Home() {
       isChecked: false,
     };
 
-    saveToLocalStorage("tasks", [newTask]);
+    const currentTasks = loadFromLocalStorage("tasks", []);
+    saveToLocalStorage("tasks", [...currentTasks, newTask]);
     refreshTasks();
   };
 

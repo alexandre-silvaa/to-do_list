@@ -17,7 +17,7 @@ export function ListTasks({
   return (
     <div className="w-full max-w-2xl">
       {tasks.length === 0 ? (
-        <p className="text-gray-500 max-w-[400px]">
+        <p className="text-gray-500 text-sm md:text-base max-w-[400px]">
           Suas tarefas estão em dia? Que milagre! Crie uma nova só para não
           perder o costume ;)
         </p>
